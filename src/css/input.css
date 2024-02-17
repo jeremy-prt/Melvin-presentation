@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
 }
