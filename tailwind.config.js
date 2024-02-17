@@ -7,12 +7,14 @@ module.exports = {
         primary: "#cd005c",
         secondary: "#ff92c9",
       },
-      fontFamily: {
-        main: ["GeneralSans-Variable"],
-      },
       fontSize: {
-        title: ["clamp(2rem, 8vw, 9rem)"],
+        title: ["clamp(3rem, 7vw, 9rem)"],
         subtitle: ["clamp(1rem, 7vw, 7rem)"],
+        subtitle2: ["clamp(0.8rem, 5vw, 5rem)"],
+      },
+      fontFamily: {
+        title: ["Gotham-Ultra"],
+        subtitle: ["Gotham-Bold"],
       },
     },
   },
