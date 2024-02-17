@@ -7,6 +7,64 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="bg-red-500">Hello world !</h1>
+    <header class="w-full bg-primary h-16 overflow-visible relative">
+      <nav class="flex items-start justify-center h-full">
+        <a href="#">
+          <img
+            class="w-24 h-full relative top-2 z-10"
+            src="./assets/img/logo.png"
+            alt="Logo"
+          />
+        </a>
+      </nav>
+    </header>
+    <section
+      id="hero"
+      class="px-5 md:px-10 xl:px-20 2xl:px-28 bg-secondary relative"
+    >
+      <div class="flex min-h-screen justify-start py-12 items-center flex-col">
+        <div class="text-center">
+          <h1
+            id="hero-title"
+            class="text-white font-main text-title font-bold leading-tight uppercase relative tracking-widest"
+          >
+            Bienvenue dans
+            <span class="block font-semibold pb-6 tracking-wide"
+              >mon monde</span
+            >
+          </h1>
+          <h2 class="text-primary font-semibold text-subtitle uppercase">
+            Melvin pasquier
+          </h2>
+        </div>
+        <a
+          id="hero-btn"
+          href="#"
+          class="bg-primary text-white py-4 px-4 mt-4 rounded-md uppercase font-semibold text-xl"
+          >Me découvrir</a
+        >
+        <div class="relative">
+          <img
+            class="w-[20rem] top-2 right-4 relative"
+            src="./assets/img/melvin-hero.png"
+            alt=""
+          />
+          <img
+            class="absolute top-0 -left-20 w-28"
+            src="./assets/img/licorne-hero.png"
+            alt=""
+          /><img
+            class="absolute top-60 rotate-45 -right-28 w-[10rem]"
+            src="./assets/img/licorne-hero2.png"
+            alt=""
+          />
+        </div>
+        <h3
+          class="z-10 text-secondary font-main uppercase text-4xl text-center font-medium"
+        >
+          Le tismé sucré <span class="block">priviliégié d'Annecy</span>
+        </h3>
+      </div>
+    </section>
   </body>
 </html>
