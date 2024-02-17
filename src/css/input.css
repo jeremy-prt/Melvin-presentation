@@ -25,6 +25,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -49,7 +50,7 @@ p {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60%;
+  height: 45%;
   background: #cd005c;
   clip-path: polygon(0 13%, 100% 35%, 100% 100%, 0% 100%);
 }
@@ -60,4 +61,11 @@ p {
 
 #hero-btn {
   box-shadow: 0 0.625em 1em 0 rgba(255, 30, 146, 0.35);
+}
+
+#separator {
+  width: 0;
+  height: 0;
+  border-right: 100vw solid transparent;
+  border-top: 8vw solid #cd005c;
 }

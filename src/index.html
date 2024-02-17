@@ -36,7 +36,7 @@
       id="hero"
       class="px-5 md:px-10 xl:px-20 2xl:px-28 bg-secondary relative"
     >
-      <div class="flex min-h-screen justify-start py-12 items-center flex-col">
+      <div class="flex justify-start pt-12 items-center flex-col">
         <div class="text-center">
           <h1
             id="hero-title"
@@ -51,13 +51,13 @@
         </div>
         <a
           id="hero-btn"
-          href="#"
+          href="#line-hero"
           class="bg-primary font-subtitle text-white py-2 px-4 mt-4 rounded-md uppercase text-xl"
           >Me découvrir</a
         >
-        <div class="relative">
+        <div class="relative pb-16">
           <img
-            class="w-[18rem] top-2 right-4 relative"
+            class="w-[16rem] top-4 right-1 relative overflow-hidden"
             src="/src/assets/img/melvin-hero.png"
             alt=""
           />
@@ -70,13 +70,16 @@
           <h2 class="text-white uppercase text-subtitle leading-10">
             Qui suis-je ?
           </h2>
-          <img src="/src/assets/img/bg-line2.png" class="mt-3 w-full" alt="" />
+          <img
+            id="line-hero"
+            src="/src/assets/img/bg-line2.png"
+            class="mt-3 w-full"
+            alt=""
+          />
         </div>
       </div>
     </section>
-    <section
-      class="bg-primary min-h-screen -mt-10 px-5 md:px-10 xl:px-20 2xl:px-28 z-50 relative"
-    >
+    <section class="bg-primary px-5 md:px-10 xl:px-20 2xl:px-28 py-4 z-50">
       <p class="text-white text-justify text-xl">
         Melvin, Melman ou bien encore Tismé Sucré, je suis un garçon de 19 ans
         qui recherche l’amour, de nos jours l’amour se définit par de la
@@ -87,6 +90,12 @@
       <div class="flex justify-center items-center mt-8">
         <img src="/src/assets/img/melvin-noel.gif" class="w-full" alt="" />
       </div>
+    </section>
+    <div id="separator" class="bg-secondary"></div>
+    <section
+      class="bg-secondary relative px-5 md:px-10 xl:px-20 2xl:px-28 py-4 z-50"
+    >
+      <p>salut</p>
     </section>
   </body>
 </html>
